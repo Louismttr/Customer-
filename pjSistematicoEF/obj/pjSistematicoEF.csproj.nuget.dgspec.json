@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PC Crossway\\Desktop\\Sistematico-Luisa\\pjSistematicoADO\\pjSistematicoADO.csproj": {}
+    "C:\\Users\\PC Crossway\\Desktop\\Sistematico-Luisa\\pjSistematicoEF\\pjSistematicoEF.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PC Crossway\\Desktop\\Sistematico-Luisa\\pjSistematicoADO\\pjSistematicoADO.csproj": {
+    "C:\\Users\\PC Crossway\\Desktop\\Sistematico-Luisa\\pjSistematicoEF\\pjSistematicoEF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC Crossway\\Desktop\\Sistematico-Luisa\\pjSistematicoADO\\pjSistematicoADO.csproj",
-        "projectName": "pjSistematicoADO",
-        "projectPath": "C:\\Users\\PC Crossway\\Desktop\\Sistematico-Luisa\\pjSistematicoADO\\pjSistematicoADO.csproj",
+        "projectUniqueName": "C:\\Users\\PC Crossway\\Desktop\\Sistematico-Luisa\\pjSistematicoEF\\pjSistematicoEF.csproj",
+        "projectName": "pjSistematicoEF",
+        "projectPath": "C:\\Users\\PC Crossway\\Desktop\\Sistematico-Luisa\\pjSistematicoEF\\pjSistematicoEF.csproj",
         "packagesPath": "C:\\Users\\PC Crossway\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC Crossway\\Desktop\\Sistematico-Luisa\\pjSistematicoADO\\obj\\",
+        "outputPath": "C:\\Users\\PC Crossway\\Desktop\\Sistematico-Luisa\\pjSistematicoEF\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PC Crossway\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,13 +40,15 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "dependencies": {
-            "System.Configuration.ConfigurationManager": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[8.0.0-preview.3.23174.8, )"
+              "version": "[8.0.0-preview.3.23174.2, )"
             },
-            "System.Data.SqlClient": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[4.8.5, )"
+              "version": "[8.0.0-preview.3.23174.2, )"
             }
           },
           "imports": [
